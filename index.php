@@ -50,7 +50,7 @@ include 'db.php';
           <input type="text" class="form-control"  id="mobile" name="mobile"  placeholder="Mobile">
           <div class="input-group-append">
             <div class="input-group-text">
-              <span class="fas fa-envelope"></span>
+              <span class="fas fa-mobile-alt"></span>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ include 'db.php';
          
           <div class="input-group-append">
             <div class="input-group-text">
-              <span class="fas fa-lock"></span>
+              <span class="fas fa-envelope"></span>
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@ include 'db.php';
           <input type="date" class="form-control" id="dob" name="dob">
           <div class="input-group-append">
             <div class="input-group-text">
-              <span class="fas fa-lock"></span>
+              <span class="far fa-calendar"></span>
             </div>
           </div>
         </div>
