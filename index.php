@@ -140,9 +140,10 @@ include 'db.php';
         if(data >= 1){
           Swal.fire('Email is Already Exist');
         }
-        // else if(!validateMobile($('#mobile').val().trim())){
-        //   Swal.fire('Invalid mobile number. Please enter a 10-digit number.');
-        // }
+        else if($(".errmsg").css("display")==="block")
+        {
+            swal.fire("Pls Enter Valid Mobile Number");
+        }
         else{
           $(this).html('<i class="fa fa-spinner fa-spin"></i>');
           $.ajax({
